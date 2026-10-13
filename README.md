@@ -1,8 +1,20 @@
-# 麦当劳热量友好 MCP
+# 麦麦轻松吃
+
+<p align="center">
+  <img src="assets/maiqingqing-mascot.png" alt="麦轻轻：系着薄荷绿围巾、抱着汉堡的小麦粒精灵" width="320">
+</p>
+
+**热量交给我，你负责好好吃饭。**
 
 为想控制热量、但不想费脑计算的普通人搭配麦当劳餐食。本地 stdio MCP 提供官方营养、门店菜单和价格查询，以及计算、推荐和替换餐品；客户端负责自然语言对话。
 
 Python 3.10+，仅使用标准库，无需安装生产依赖或 Skill。每位用户配置自己的麦当劳官方 Token。
+
+## 认识麦轻轻
+
+项目名字叫 **「麦麦轻松吃」**，吉祥物昵称 **「麦轻轻」**。
+
+麦轻轻是一只圆滚滚的小麦粒精灵，系着薄荷绿围巾，开心地抱着汉堡。它的口头禅是：**“热量交给我，你负责好好吃饭。”**
 
 ## 下载与配置
 
@@ -23,7 +35,7 @@ git clone https://github.com/MUZIJIXING/mcd-calorie-helper.git
 把下面的 prompt 发给能操作本机文件和终端的大模型助手，例如 Codex。配置过程中，在本机保存自己的 Token。
 
 ```text
-请帮我在这台电脑安装并配置“麦当劳热量友好 MCP”。
+请帮我在这台电脑安装并配置“麦麦轻松吃”MCP。
 仓库：https://github.com/MUZIJIXING/mcd-calorie-helper
 
 请按以下步骤执行：
@@ -92,3 +104,7 @@ mcp-local.*                  客户端配置示例
 热量按官方标准餐品数据计算；餐品可售状态与价格以当前门店查询为准。修改餐品后，助手会重新计算并核验价格。
 
 本项目为独立开发的日常点餐助手，营养与搭配信息用于点餐参考。
+
+## 活动与接入说明
+
+本项目按[麦当劳程序员创意开发大赛](https://github.com/M-China/mcd-developer-innovation-challenge)的项目要求准备。官方 MCP 工具、实际调用流程和业务价值见 [MCP_INTEGRATION.md](MCP_INTEGRATION.md)；官方参赛声明见 [CONTEST_DECLARATION.md](CONTEST_DECLARATION.md)。
