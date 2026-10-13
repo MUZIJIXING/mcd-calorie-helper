@@ -108,3 +108,5 @@ mcp-local.*                  客户端配置示例
 ## 活动与接入说明
 
 本项目按[麦当劳程序员创意开发大赛](https://github.com/M-China/mcd-developer-innovation-challenge)的项目要求准备。官方 MCP 工具、实际调用流程和业务价值见 [MCP_INTEGRATION.md](MCP_INTEGRATION.md)；官方参赛声明见 [CONTEST_DECLARATION.md](CONTEST_DECLARATION.md)。
+
+报名入口：[麦麦轻松吃 · Issue #636](https://github.com/M-China/mcd-developer-innovation-challenge/issues/636)。
