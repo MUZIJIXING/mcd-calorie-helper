@@ -1,0 +1,7 @@
+# 修改为你自己的 Python 和仓库绝对路径；不要填写 Token 明文。
+[mcp_servers.mcd_calorie_helper]
+command = "python"
+args = ["D:/tools/mcd-calorie-helper/mcp_server.py"]
+env_vars = ["MCD_MCP_TOKEN"]
+startup_timeout_sec = 10
+tool_timeout_sec = 60

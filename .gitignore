@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+local/
+.serena/
+.agents/
+.codex/
+tests/
+tools/
+skills/

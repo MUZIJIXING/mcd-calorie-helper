@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcd-calorie-helper": {
+      "command": "python",
+      "args": ["D:/tools/mcd-calorie-helper/mcp_server.py"]
+    }
+  }
+}
